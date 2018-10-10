@@ -28,8 +28,8 @@ queryFirstDoc((data)=>{
   
 })
 
-//Fill in the function in query first doc to log "We finally have all our docs - {dumbProp1}, {dumbProp2}, {dumpProp3}"
-/I created an error handling mechanism for queryThirdDoc(), which can be used like this:
+//Fill in the callback in the call to queryFirstDoc to log "We finally have all our docs - {dumbProp1}, {dumbProp2}, {dumpProp3}"
+//I created an error handling mechanism for queryThirdDoc(), which can be used like this:
 // queryThirdDoc(function(doc){
 //   console.log(doc)
 // }, function(errMessage){
